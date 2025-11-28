@@ -1,0 +1,1 @@
+1. Application frontend-rest has been successfully deployed!!
