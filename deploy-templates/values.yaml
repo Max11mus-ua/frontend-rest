@@ -92,7 +92,11 @@ autoscaling:
 # Environment variables passed to the container at runtime.
 env:
   - name: API_PORT                            # The port used for listening to requests
+<<<<<<< HEAD
     value: '8080'
+=======
+    value: '5000'
+>>>>>>> 29682be7f0a91091f387df4fc35145843a36e37a
   - name: API_HOST                            # URL for connecting to the backend
     value: backend-rest.5m24vt8u-rest-dev   # URL in format <kubernetes_endpoint>.<kubernetes_namespace>
 
